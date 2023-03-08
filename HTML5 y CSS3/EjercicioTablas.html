@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Tablas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        th, td{
+            border: 1px solid black;
+        }
+        td, b{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ejercicio tablas</h1>
+    <br>
+    <table>
+        <tr>
+            <th></th>
+            <td colspan="3">Imagen ipod</td>
+            <td colspan="2">Imagen ipod</td>
+        </tr>
+        <tr>
+            <th><b>Capacidad</b></th>
+            <td>3gb</td>
+            <td>4gb</td>
+            <td>8gb</td>
+            <td>32gb</td>
+            <td>2gb</td>
+        </tr>
+        <tr>
+            <th><b>Colores</b></th>
+            <td><b>Blanco</b></td>
+            <td>
+                <ul>
+                    <li>Negro</li>
+                    <li>Rosa</li>
+                    <li>Dorado</li>
+                </ul>
+            </td>
+            <td><b>Negro</b></td>
+            <td colspan="2">
+                <ul>
+                    <li>Negro</li>
+                    <li>Blanco</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th><b>Pantalla</b></th>
+            <td colspan="3"><b>3 pulgadas</b></td>
+            <td colspan="2"><b>7 pulgadas</b></td>
+        </tr>
+        <tr>
+            <th rowspan="2"><b>Tiempo de carga</b></th>
+            <td colspan="3" rowspan="2"><b>1 hora</b></td>
+            <td colspan="2"><b>5 horas</b></td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>30 minutos para el 75%</b></td>
+        </tr>
+    </table>
+</body>
+
+</html>

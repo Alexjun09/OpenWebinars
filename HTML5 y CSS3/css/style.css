@@ -1,0 +1,22 @@
+p{
+    text-align: center;
+    color: blue;
+}
+h1{
+    color: aqua;
+}
+.uno{
+    color: red;
+}
+h1.dos{
+    color: blue;
+}
+.dos{
+    color: blueviolet;
+}
+ul li{
+    color: brown;
+}
+ul ul li {
+    color: green;
+}

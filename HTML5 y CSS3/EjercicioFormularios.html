@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio formularios</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        #uno {
+            background-color: gray;
+        }
+
+        #dos {
+            background-color: yellow;
+        }
+
+        #tres {
+            background-color: red;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+        fieldset, legend{
+            border: 1px solid black;
+        }
+        legend{
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hoja de Inscripcion</h1>
+    <h1>En los ciclos formativos de grado superior</h1>
+    <form action="">
+        <fieldset id="uno">
+            <legend>Datos personales</legend>
+            <label for="">Nombre:</label>
+            <input type="text" name="" id="">
+            <label for="">Apellidos:</label>
+            <input type="text" name="" id="">
+            <label for="">DNI:</label>
+            <input type="text" name="" id="">
+            <br>
+            <label for="">Localidad:</label>
+            <input type="text" name="" id="">
+            <label for="">Provincia:</label>
+            <select name="provincias" id="">
+                <option value="">Madrid</option>
+                <option value="">Cataluña</option>
+                <option value="">Asturias</option>
+                <option value="">Galicia</option>
+            </select>
+            <label for="">Fecha Nacimiento:</label>
+            <input type="date" name="" id="">
+            <br>
+            <label for="">Direccion:</label>
+            <input type="text" name="" id="">
+            <label for="">Codio Postal:</label>
+            <input type="number" name="" id="">
+        </fieldset>
+        <fieldset id="dos">
+            <legend>Forma de Acceso</legend>
+            <ul>
+                <li>
+                    <input type="radio" name="a">
+                    <label for="">Direct</label>
+                </li>
+                <ul>
+                    <li>
+                        <input type="radio" name="b">
+                        <label for="">Bachillerato LOGSE</label>
+                        <input type="text">
+                    </li>
+                    <li>
+                        <input type="radio" name="b">
+                        <label for="">Bachillerato Experimental</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="b">
+                        <label for="">COU. Opcion</label>
+                        <input type="text">
+                    </li>
+                    <li>
+                        <input type="radio" name="b">
+                        <label for="">FP2</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="b">
+                        <label for="">Otros (especifique)</label>
+                        <input type="text">
+                    </li>
+                </ul>
+                <li>
+                    <input type="radio" name="a">
+                    <label for="">Prueba Libre</label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset id="tres">
+            <legend>Documentos Adjuntados</legend>
+            <input type="checkbox" name="" id="">
+            <label for="">Fotocopia DNI</label>
+            <input type="checkbox" name="" id="">
+            <label for="">Certificado academico</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Otros documentos</label>
+            <input type="text">
+        </fieldset>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
